@@ -12,13 +12,13 @@ soma(3,4)
 // b) Uma função que recebe 2 números e imprime um booleano que informa se o primeiro número é **maior ou igual** ao segundo.
 function maiorOuIgual(num1, num2) {
     if(num1 >= num2){
-        console.log('o número 1 é maior ou igual ao número 2');
+        console.log(true);
     } else {
-        console.log('o número 1 não é maior ou igual ao número 2.');
+        console.log(false);
     }
 }
 
-maiorOuIgual(9,7)
+maiorOuIgual(3,7)
 
 // c) Uma função que receba um número e imprima se ele é par ou não
 function par(num1) {
